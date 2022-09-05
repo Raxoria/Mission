@@ -1,0 +1,97 @@
+@import url(https://fonts.googleapis.com/css?family=Khula:700);
+
+html{
+    overflow: hidden;
+}
+
+body {
+    background-image: url("Assets/space-nebula-3d-illustration-use-with-projects-science-research-education_1.jpg");
+    background-size:cover;
+}
+
+#type-text {
+  color: white;
+}
+
+.blinking-cursor {
+  user-select: none;
+  animation: blink 1s steps(2, start) infinite;
+}
+@keyframes blink {
+  to {
+    visibility: hidden;
+  }
+}
+
+.container {
+    position: relative;
+  }
+  
+  #earth {
+    position: relative;
+    cursor: pointer;
+  }
+
+  #moon {
+    position: relative;
+    cursor: pointer;
+  }
+
+  #sun {
+    position: relative;
+    cursor: pointer;
+  }
+
+  #saturn {
+    position: relative;
+    cursor: pointer;
+  }
+
+  #jupiter {
+    position: relative;
+    cursor: pointer;
+  }
+
+  .topleft {
+    position: absolute;
+    top: 8px;
+    left: 50px;
+    font-size: 18px;
+  }
+
+  .topleft2{
+    position: absolute;
+    top: 8px;
+    left: 300;
+    font-size: 18px;
+  }
+
+  .topright {
+    position: absolute;
+    top: 120px;
+    right: 100px;
+    font-size: 18px;
+  }
+
+  .centerleft {
+    position: absolute;
+    top: 230px;
+    left: 50px;
+    font-size: 18px;
+    rotate: 90deg;
+  }
+
+  .bottomright{
+    position: absolute;
+    top: 350px;
+    right: -600px;
+    font-size: 18px;
+  }
+
+  
+  .bottomright2{
+    position: absolute;
+    top: 350px;
+    right: 50px;
+    font-size: 18px;
+  }
